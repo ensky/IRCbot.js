@@ -1,0 +1,27 @@
+{
+  "name": "IRCBot.js",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ensky/IRCBot.js/"
+  },
+  "keywords": [
+    "irc",
+    "bot",
+    "irc bot"
+  ],
+  "author": "Ensky Lin",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/ensky/IRCBot.js/issues"
+  },
+  "dependencies": {
+    "underscore": ">=1.6.0",
+    "js-yaml": ">=3.0.1"
+  }
+}

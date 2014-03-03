@@ -1,0 +1,14 @@
+debug_level:    'debug' # debug, notice, warning, error
+nickname:       '' # ircBot's nickname
+server:
+    cmd: # a telnet server to connect and control the bot
+        enable: True
+        listen: localhost
+        port:   7777
+clients: # irc clients
+    - ip:        ''
+      port:      6667
+      ssl:       0
+      reconnect: 30 #seconds
+      channels:
+          - channel:  '#twitchplayspokemon'
